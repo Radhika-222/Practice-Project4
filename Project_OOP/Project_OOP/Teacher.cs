@@ -9,7 +9,7 @@ namespace Project_OOP
     public class Teacher
     {
         public string Name { get; set; }
-        public int ClassAndSection { get; set; }
+        public string ClassAndSection { get; set; }
 
         List<dynamic> teachers = new List<dynamic>();
         public void AddTeacher()
@@ -18,7 +18,7 @@ namespace Project_OOP
             Name = Console.ReadLine();
             teachers.Add(Name);
             Console.WriteLine("Enter Teacher Class");
-            ClassAndSection = int.Parse(Console.ReadLine());
+            ClassAndSection = Console.ReadLine());
             teachers.Add(ClassAndSection);
 
         }
