@@ -18,7 +18,7 @@ namespace Project_OOP
             Name = Console.ReadLine();
             teachers.Add(Name);
             Console.WriteLine("Enter Teacher Class");
-            ClassAndSection = Console.ReadLine());
+            ClassAndSection = Console.ReadLine();
             teachers.Add(ClassAndSection);
 
         }
